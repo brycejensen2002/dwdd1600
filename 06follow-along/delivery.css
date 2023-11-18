@@ -103,7 +103,7 @@ main a {
 .myForm label {
     margin: .5rem;
 }
-.myForm label, .myForm selcect, .myForm [type=text], .myForm [type=tel], .myForm textarea {
+.myForm label, .myForm select, .myForm [type=text], .myForm [type=tel], .myForm textarea {
     display: block;
 }
 
