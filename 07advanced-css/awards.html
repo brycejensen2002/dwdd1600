@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A full guide to the 2023 NFL Season">
+    <meta name="author" content="Bryce Jensen">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>A Guide to the 2023 NFL Season: Home</title>
+    <link rel="stylesheet" href="nfl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;500&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    
+</head>
+<body>
+    <!-- start the page header -->
+    <header>
+        <img src="images-for-website/football-logo.png" alt="site logo" width="92" height="86">
+        <div>
+            <h1>A Guide to the 2023 NFL Season</h1>
+            <p>Your Ultimate Resource</p>
+        </div>
+    </header>
+    
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">All 32 NFL Teams</a></li>
+            <li><a href="standings.html"> Current Standings</a></li>
+            <li><a href="images.html">Photos</a></li>
+            <li class="active"><a href="awards.html">NFL Awards</a></li>
+        </ul>
+    </nav>
+    
+    <!-- start the page main -->
+    <main>
+        <h1>Vote for the NFL Awards!</h1>
+        <form method="get" class="myForm" action="thanks.html">
+        
+            <fieldset>
+           <legend>Voter Information</legend>
+            <label>First Name*<input type="text" name="fname" required></label>
+            <label>Last Name*<input type="text" name="lname" required></label>
+            <label>Cell Number*<input type="tel" name="phone" required placeholder="9875551234"></label>
+            <label>Email*<input type="email" name="email" required></label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Cast Your Vote For NFL MVP</legend>
+                <label><input type="radio" name="vote" value="Patrick Mahomes">Patrick Mahomes (KC)</label>
+                <label><input type="radio" name="vote" value="Jalen Hurts">Jalen Hurts (PHI)</label>
+                <label><input type="radio" name="vote" value="Lamar Jackson">Lamar Jackson (BAL)</label> 
+            </fieldset>
+            
+            <fieldset>
+            <legend>Cast Your Vote(s) For NFL OPOY</legend>
+               <label><input type="checkbox" name="Tyreek Hill" value="chosen">Tyreek Hill (MIA)</label>
+                <label><input type="checkbox" name="AJ Brown" value="chosen">AJ Brown (PHI)</label>
+                <label><input type="checkbox" name="Christian McCaffrey" value="chosen">Christian McCaffrey (SF)</label>
+                <label><input type="checkbox" name="CeeDee Lamb" value="chosen">CeeDee Lamb (DAL)</label>
+            </fieldset>
+            
+            <fieldset>
+            <legend>Cast Your Vote For NFL DPOY</legend>
+                <select>
+                <option value="none">Please Select</option>
+                <option value="Myles Garrett">Myles Garrett</option>
+                <option value="TJ Watt">TJ Watt</option>
+                <option value="Micah Parsons">Micah Parsons</option>
+                <option value="Maxx Crosby">Maxx Crosby</option>
+                </select>
+            </fieldset>
+            
+            <label>Comments
+            <textarea anme="comments"></textarea>
+            </label>
+            
+            <input type="submit" value="Submit My Votes">
+        </form>
+        
+        
+    </main>
+    
+    <!-- start the page footer -->
+    <footer>
+    <p>&copy;2023 &bull; Bryce Jensen &bull; <a href="mailto:brycejensen02@yahoo.com">Email Us &bull;</a><a href="tel:385-448-1091">Call Us</a></p></footer>
+    
+</body>
